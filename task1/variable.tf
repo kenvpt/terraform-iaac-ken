@@ -8,3 +8,4 @@ variable "ami"{}
 variable "size_ebs"{} 
 variable "domain_name"{}
 variable "user_data"{}
+variable "delegation_set"{}
