@@ -1,7 +1,7 @@
 region = "us-west-2"
 vpc_cidr = "10.0.0.0/16"
 subnet_cidr = "10.0.1.0/24"
-instance_type = "t2.micro"
+instance_type = "t2.large"
 key_name = "my_key"
 public_key_path = "~/.ssh/id_rsa.pub"
 ami = "ami-0d6621c01e8c2de2c"
