@@ -16,9 +16,6 @@ variable "user_data"{}
 variable "delegation_set"{}
 
 
-variable "ktag"{
-    type = "list"
-}
-variable "vtag"{
-    type = "list"
+variable "tags"{
+    type = "map"
 }

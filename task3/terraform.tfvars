@@ -19,17 +19,11 @@ size_ebs = "100"
 domain_name = "www.kenvpt.com"
 user_data = "/home/centos/terraform-iaac-ken/task3/httpd"
 delegation_set = "Z10047533N9ED5L3STY30"
-ktag = [
-    "Environment",
-    "Department",
-    "Team",
-    "Created_by"
-]
+tags = {
+   Environment = "Dev"
+   Department = "IT"
+   Team = "Infrastructure"
+   Created_by = "Kenneth"
 
-vtag = [
-    "Dev",
-    "IT",
-    "Infrastructure",
-    "Kenneth"
-]
-
+}
+    
