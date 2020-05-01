@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo yum install httpd mysql -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl start mysql
+sudo echo "TERRAFORM IS FUN!" > /var/www/html/index.html
+sudo setenforce 0
+sudo systemctl restart httpd
+sudo yes yes | ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
+sudo cat ~/.ssh/id_rsa.pub | ssh centos@"${aws_instance.mysql.private_ip}" 'cat >> .ssh/authorized_keys'
+

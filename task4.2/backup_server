@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo echo -e "[r1soft]\nname=R1Soft Repository Server\nbaseurl=http://repo.r1soft.com/yum/stable/basearch/\nenabled=1\ngpgcheck=0\n" > /etc/yum.repos.d/r1soft.repo
+sudo yum install serverbackup-enterprise 
+sudo serverbackup-setup --user user --pass password
+sudo /etc/init.d/cdp-server restart
+sudo  serverbackup-setup --http-port 8080 --https-port 8443 
+sudo /etc/init.d/cdp-server restart
+sudo setenforce 0
