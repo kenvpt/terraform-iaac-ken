@@ -10,7 +10,6 @@ variable "instance_type"{}
 variable "key_name"{}
 variable "public_key_path"{}
 variable "ami_centos7"{}
-variable "ami_centos6"{}
 
 variable "size_ebs"{} 
 variable "domain_name"{}
