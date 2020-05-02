@@ -30,3 +30,4 @@ tags = {
 
 }
 private_key = "~/.ssh/id_rsa"
+key_pair = "web-key"

@@ -1,4 +1,13 @@
 #!/bin/bash
+yes yes | ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
+sudo yum install epel-release -y
+sudo yum install python-pip -y
+sudo pip install --upgrade pip 
+sudo pip install awscli
+aws configure set aws_access_key_id AKIAVTTVGFVPDN6MD6OC
+aws configure set aws_secret_access_key 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
+aws configure set default.region us-east-2
+aws ec2 import-key-pair --key-name "web-key" --public-key-material file://~/.ssh/id_rsa.pub
 sudo yum install httpd mysql -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
@@ -6,6 +15,5 @@ sudo systemctl start mysql
 sudo echo "TERRAFORM IS FUN!" > /var/www/html/index.html
 sudo setenforce 0
 sudo systemctl restart httpd
-sudo yes yes | ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
-sudo cat ~/.ssh/id_rsa.pub | ssh centos@"${aws_instance.mysql.private_ip}" 'cat >> .ssh/authorized_keys'
+#sudo cat ~/.ssh/id_rsa.pub | ssh centos@"${aws_instance.mysql.private_ip}" 'cat >> .ssh/authorized_keys'
 

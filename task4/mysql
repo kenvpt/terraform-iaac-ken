@@ -1,4 +1,6 @@
 #!/bin/bash
-sudo yum install mysql-server
+sudo yum install mysql-server -y
 sudo service mysqld start
+sudo iptables -I INPUT -p tcp --dport=3306 -j ACCEPT
+sudo iptables -I INPUT -p tcp --dport=22 -j ACCEPT
 sudo setenforce 0
