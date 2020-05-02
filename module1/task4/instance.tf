@@ -22,7 +22,7 @@ resource "aws_instance" "my_web" {
         "sudo setenforce 0",
         "sudo systemctl restart httpd",
         "sudo yes yes | ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ''",
-        "ssh-copy-id -i ~/.ssh/id_rsa.pub centos@${aws_instance.my_sql.private_ip}"
+        "sudo ssh-copy-id -i ~/.ssh/id_rsa.pub centos@${aws_instance.my_sql.private_ip}"
     ]
   }
 }
