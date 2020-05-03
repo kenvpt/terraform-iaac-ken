@@ -14,16 +14,14 @@ private_subnet_cidr = [
 instance_type = "t2.xlarge"
 key_name = "my_key"
 public_key_path = "~/.ssh/id_rsa.pub"
-ami = "ami-0f7919c33c90f5b58"
-size_ebs = "100"
 domain_name = "www.gitlab.kenvpt.com"
 user_data = "/home/centos/terraform-iaac-ken/gitlab_project/httpd"
 delegation_set = "Z10047533N9ED5L3STY30"
 tags = {
-   Environment = "Dev"
+   Environment = "Gitlab"
    Department = "IT"
    Team = "Infrastructure"
-   Created_by = "Kenneth"
+   Created_by = "Team5"
 
 }
-    
+private_key_path = "~/.ssh/id_rsa"   
