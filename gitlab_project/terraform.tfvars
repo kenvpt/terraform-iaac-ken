@@ -1,4 +1,4 @@
-region = "us-east-2"
+region = "us-east-1"
 vpc_cidr = "10.0.0.0/16"
 public_subnet_cidr = [
     "10.0.1.0/24",
@@ -15,7 +15,6 @@ instance_type = "t2.xlarge"
 key_name = "my_key"
 public_key_path = "~/.ssh/id_rsa.pub"
 domain_name = "www.gitlab.kenvpt.com"
-user_data = "/home/centos/terraform-iaac-ken/gitlab_project/httpd"
 delegation_set = "Z10047533N9ED5L3STY30"
 tags = {
    Environment = "Gitlab"

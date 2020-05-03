@@ -41,3 +41,4 @@ resource "aws_security_group" "sg_ssh" {
         cidr_blocks = ["0.0.0.0/0"]
     }
 }
+
