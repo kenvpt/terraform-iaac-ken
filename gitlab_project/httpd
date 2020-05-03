@@ -1,6 +1,17 @@
 #!/bin/bash
-sudo yum install httpd -y
-sudo systemctl start httpd
-sudo systemctl enable httpd
-sudo echo "TERRAFORM IS FUN!" > /var/www/html/index.html
-sudo systemctl restart httpd
+sudo yum install -y curl policycoreutils-python openssh-server
+sudo systemctl enable sshd
+sudo systemctl start sshd
+sudo yum install firewalld -y
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
+sudo systemctl reload firewalld
+sudo yum install postfix -y
+sudo systemctl enable postfix
+sudo systemctl start postfix
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+sudo EXTERNAL_URL="http://gitlab.kenvpt.com" yum install -y gitlab-ee
+sudo setenforce 0
+
