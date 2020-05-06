@@ -16,7 +16,7 @@ module "gitlab1" {
     instance_type = "t2.xlarge"
     key_name = "my_key"
     public_key_path = "~/.ssh/id_rsa.pub"
-    domain_name = "www.prod.gitlab.com"
+    domain_name = "www.prod.kenvpt.com"
     delegation_set = "Z10047533N9ED5L3STY30"
     tags = {
      Environment = "Gitlab"
@@ -45,7 +45,7 @@ module "gitlab2" {
     instance_type = "t2.xlarge"
     key_name = "my_key"
     public_key_path = "~/.ssh/id_rsa.pub"
-    domain_name = "www.dev.gitlab.com"
+    domain_name = "www.dev.kenvpt.com"
     delegation_set = "Z10047533N9ED5L3STY30"
     tags = {
      Environment = "Gitlab"
