@@ -20,7 +20,7 @@ module "gitlab1" {
     delegation_set = "Z10047533N9ED5L3STY30"
     tags = {
      Environment = "Gitlab"
-     Department = "IT"
+     Department = "Prod"
      Team = "Infrastructure"
      Created_by = "Team5"
 
@@ -49,7 +49,7 @@ module "gitlab2" {
     delegation_set = "Z10047533N9ED5L3STY30"
     tags = {
      Environment = "Gitlab"
-     Department = "IT"
+     Department = "Dev"
      Team = "Infrastructure"
      Created_by = "Team5"
 
