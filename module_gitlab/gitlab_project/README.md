@@ -1,5 +1,7 @@
 
-[gitlab (9).pdf](https://github.com/kenvpt/terraform-iaac-ken/files/4595127/gitlab.9.pdf)
+
+This is the Infrastructure we are expecting to build from this Terraform
+<img width="545" alt="Screen Shot 2020-05-07 at 1 57 19 PM" src="https://user-images.githubusercontent.com/49701513/81333801-b5d83500-906a-11ea-803f-11d86590f269.png">
 
 
 Needs to change in terraform.tfvars for you own gitlab server :
