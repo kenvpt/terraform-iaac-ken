@@ -13,6 +13,9 @@ Needs to change gitlab_module.tf  variables for your gitlab server.
   
   
 ------------------------------------------------------------------------------------------
+When ready to deploy the infrastructure, type:
+1. terraform init
+2. terraform apply (terraform version .12)
   
   This is the page you should see when you put your domain or the ec2's IP on the browser.
   You enter new password here.
