@@ -12,7 +12,7 @@ Needs to change in terraform.tfvars for you own gitlab server :
   1. delegation_set = "put your zone id in your route 53 here"
   
   
-  
+------------------------------------------------------------------------------------------
   
   This is the page you should see when you put your domain or the ec2's IP on the browser.
   You enter new password here.
