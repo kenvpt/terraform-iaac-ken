@@ -11,8 +11,14 @@ Needs to change in terraform.tfvars for you own gitlab server :
 
 
 
+
+
+
  By Default, the user name is "root" and the password is the password ypu just recently made.
 <img width="1422" alt="Screen Shot 2020-05-03 at 6 54 41 AM" src="https://user-images.githubusercontent.com/49701513/81333008-8674f880-9069-11ea-9fe5-72ec72662a91.png">
+
+
+
 
 
 
