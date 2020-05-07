@@ -1,4 +1,5 @@
 
+[gitlab (9).pdf](https://github.com/kenvpt/terraform-iaac-ken/files/4595127/gitlab.9.pdf)
 
 
 Needs to change in terraform.tfvars for you own gitlab server :
