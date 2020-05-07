@@ -7,7 +7,7 @@ This is the Infrastructure we are expecting to build from this Terraform
 
 
 
-Needs to change in terraform.tfvars for you own gitlab server :
+Needs to change gitlab_module.tf  variables for your gitlab server.
   1. domain_name = "put your domain name here"
   1. delegation_set = "put your zone id in your route 53 here"
   
