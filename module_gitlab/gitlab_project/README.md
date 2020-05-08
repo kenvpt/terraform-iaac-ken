@@ -16,7 +16,12 @@ Needs to change in terraform.tfvars for you own gitlab server :
   
   
 ------------------------------------------------------------------------------------------
-  
+This will be the output we should be seeing when Terraform apply is completed
+<img width="905" alt="Screen Shot 2020-05-07 at 2 16 48 PM" src="https://user-images.githubusercontent.com/49701513/81446611-e2f71700-9140-11ea-89ca-49e1fb7fa5d5.png">
+
+
+
+#########################################################################################
   This is the page you should see when you put your domain or the ec2's IP on the browser.
   You enter new password here.
 <img width="1421" alt="Screen Shot 2020-05-03 at 6 51 19 AM" src="https://user-images.githubusercontent.com/49701513/81332803-3c8c1280-9069-11ea-8710-3f4913bb0e95.png">
