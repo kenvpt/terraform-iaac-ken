@@ -45,3 +45,143 @@
    45  aws eks
    46  history
    47  history > eks
+    1  exit
+    2  pwd
+    3  cd
+    4  terraform verssion
+    5  terraform --version
+    6  sudo su
+    7  pwd
+    8  cd
+    9  ls
+   10  curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubectl
+   11  Message feb_devops_2020
+   12  Thread
+   13  feb_devops_2020
+   14  ls
+   15  chmod +x kubectl
+   16  ls
+   17  sudo mv kubectl /bin/
+   18  kubectl --version
+   19  kubectl version
+   20  curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/aws-iam-authenticator 
+   21  # chmod +x aws-iam-authenticator 
+   22  ls
+   23  sudo mv aws-iam-authenticator /bin/
+   24  ls
+   25  rm -rf terraform-iaac-february/
+   26  sudo yum install awscli -y
+   27  aws-iam-authenticator version
+   28  chmod +x aws-iam-authenticator 
+   29  chmod +x /bin/aws-iam-authenticator 
+   30  aws-iam-authenticator version
+   31  ls
+   32  terraform init
+   33  terraform apply 
+   34  terraform apply
+   35  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   36  kubectl get nodes
+   37  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   38  sudo pip install awscli --ignore-installed six
+   39  yum -y install python-pip
+   40  sudo yum -y install python-pip
+   41  sudo yum -y install python3-pip
+   42  sudo pip
+   43  sudo pip3 install awscli --ignore-installed six
+   44  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   45  aws eks
+   46  history
+   47  history > eks
+   48  sudo yum install awscli -y
+   49  pip3 install --upgrade --user awscli
+   50  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   51  pip uninstall awscli 
+   52  pip3 uninstall awscli 
+   53  sudo pip3 uninstall awscli 
+   54  sudo rm -rf /usr/local/aws
+   55  pip3 install awscli --upgrade --user
+   56  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   57  sudo -H pip3 install awscli --upgrade --ignore-installed six
+   58  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   59  aws --version
+   60  sudo yum install python3
+   61  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   62  unzip awscliv2.zip
+   63  sudo ./aws/install
+   64  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   65  aws --version
+   66  ls
+   67  mv aws /bin/
+   68  aws --version
+   69  which aws
+   70  ls
+   71  cd /bin/
+   72  ls
+   73  sudo rm -rf /bin/aws
+   74  aws --version
+   75  sudo yum install curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   76  unzip awscliv2.zip
+   77  sudo ./aws/install
+   78  ls
+   79  cd
+   80  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   81  unzip awscliv2.zip
+   82  sudo ./aws/install
+   83  aws --version
+   84  aws --update
+   85  sudo yum install awscli -y
+   86  pip install --upgrade awscli
+   87  pip3 install --upgrade awscli
+   88  aws --version
+   89  ls
+   90  mv aws /bin/
+   91  sudo mv aws /bin/
+   92  ls
+   93  aws --version
+   94  chmod +x /bin/aws
+   95  aws --version
+   96  yum install awscli -y
+   97  sudo yum install awscli -y
+   98  pip3 install --upgrade awscli
+   99  aws --version
+  100  terraform apply
+  101  cd
+  102  ls
+  103  cd terraform-iaac-ken/
+  104  ls
+  105  cd AWS
+  106  ld
+  107  ls
+  108  cd EKS
+  109  terraform apply
+  110  aws s3 mb s3://ken-terraform-eks --region us-east-1
+  111  rm -rf /bin/aws
+  112  sudo rm -rf /bin/aws
+  113  sudo yum install awscli -y
+  114  aws s3 mb s3://ken-terraform-eks --region us-east-1
+  115  ls
+  116  cd aws
+  117  ls
+  118  ls la
+  119  ls -la
+  120  rm aws
+  121  rm -rf aws
+  122  ls
+  123  cd 
+  124  ls
+  125   sudo rm -rf /usr/local/aws
+  126  sudo rm /usr/local/bin/aws
+  127  pip3 install awscli --upgrade --user
+  128  sudo yum install awscli -y
+  129  aws --version
+  130  export PATH=/Users/yourname/Library/Python/3.6/bin/:$PATH
+  131  ls
+  132  cd terraform-iaac-ken/
+  133  ls
+  134  cd AWS/
+  135  ls
+  136  cd EKS
+  137  ls
+  138  terrafotm init
+  139  terraform init
+  140  history >> eks
