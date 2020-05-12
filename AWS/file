@@ -1,0 +1,5 @@
+module "gitlab_server" {
+  source  = "kenvpt/gitlab_server/aws"
+  version = "2.1.0"
+  region = "us-east-2"
+}

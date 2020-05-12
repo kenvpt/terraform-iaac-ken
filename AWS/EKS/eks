@@ -1,0 +1,47 @@
+    1  exit
+    2  pwd
+    3  cd
+    4  terraform verssion
+    5  terraform --version
+    6  sudo su
+    7  pwd
+    8  cd
+    9  ls
+   10  curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubectl
+   11  Message feb_devops_2020
+   12  Thread
+   13  feb_devops_2020
+   14  ls
+   15  chmod +x kubectl
+   16  ls
+   17  sudo mv kubectl /bin/
+   18  kubectl --version
+   19  kubectl version
+   20  curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/aws-iam-authenticator 
+   21  # chmod +x aws-iam-authenticator 
+   22  ls
+   23  sudo mv aws-iam-authenticator /bin/
+   24  ls
+   25  rm -rf terraform-iaac-february/
+   26  sudo yum install awscli -y
+   27  aws-iam-authenticator version
+   28  chmod +x aws-iam-authenticator 
+   29  chmod +x /bin/aws-iam-authenticator 
+   30  aws-iam-authenticator version
+   31  ls
+   32  terraform init
+   33  terraform apply 
+   34  terraform apply
+   35  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   36  kubectl get nodes
+   37  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   38  sudo pip install awscli --ignore-installed six
+   39  yum -y install python-pip
+   40  sudo yum -y install python-pip
+   41  sudo yum -y install python3-pip
+   42  sudo pip
+   43  sudo pip3 install awscli --ignore-installed six
+   44  aws eks --region us-east-1  update-kubeconfig --name my-cluster
+   45  aws eks
+   46  history
+   47  history > eks
